@@ -1,0 +1,31 @@
+# Unreal Engine generated directories
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Generated plugin build output (preserve plugin source and content)
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+
+# IDE and local agent configuration
+/.vs/
+/.vscode/
+/.codex/
+/.cursor/
+/.gemini/
+/.agents/
+
+# Local logs and IDE databases
+*.log
+*.suo
+*.user
+*.userprefs
+*.VC.db
+*.opensdf
+*.sdf
+
+# Private local environment files
+.env
+.env.*
+!.env.example
